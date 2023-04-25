@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/poppins/Poppins-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/poppins/Poppins-Bold.ttf");
+  font-weight: bold;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  font-family: "Poppins", 'sans-serif';
+  font-weight: normal;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5em;
+  background-color: #dfdfdf;
+}
+
+.headerText {
+  margin-left: 5%;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #784BA0;
+}
+
+.userDetails {
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.userName {
+  padding-right: 0.75em;
+}
+
+.userImage {
+  width: 35px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.introduction {
+  margin-top: 2em;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: center;
+  margin: 1em 5% 4em 5%;
+
+}
+
+.mainContentContainer {
+  padding: 2em 3em;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%) border-box; 
+    border-radius: 35px;
+    border: 3px solid transparent;  
+}
+
+sub, sup {
+  font-size: 0.7em;
+}
+
+.listItem {
+  padding-bottom: 16px;
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+  height: 100%;
+  background-color: #dfdfdf;
+}
+
+.maker {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: top;
+}
+
+.makerDetails {
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.makerDetails :not(:first-child) {
+  margin-top: 0.4em;
+}
+
+.makerSocial a{
+  margin-right: 1em;
+}
+
+.copyrightInfoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  height: 100%;
+}
+
+.copyrightInfo {
+  font-size: 0.6rem;
+}
