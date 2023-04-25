@@ -6,11 +6,11 @@ const Header = ({title}) => {
     <header>
       <h4 className="headerText">Physics {title}</h4>
       <div className="links">
-        { title == "Constants" ? (
+        {/* { title == "Constants" ? (
           <Link className='navLink' to="/">Converter</Link>
         ) : (
           <Link className='navLink' to="/constants">Constants</Link>
-        )}
+        )} */}
       </div>
       <div className="userDetails">
         <div className="userName">Harsh Garg</div>
