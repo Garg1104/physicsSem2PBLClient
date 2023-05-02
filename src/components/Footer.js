@@ -11,8 +11,8 @@ const Footer = () => {
       <div className="maker">
         <h4 className="makerHeading">Maker: </h4>
         <div className="makerDetails">
-          <div className="makerName">Harsh Garg</div>
-          <div className="makerCollDets">22104009 - B14</div>
+          <div className="makerName">Harsh Garg, Aaradhya Sharma</div>
+          <div className="makerCollDets">22104009, 22104015 - B14</div>
           <div className="makerSocial">
             <a href="https://instagram.com/harsh_garg_00" target="_blank">
               <img src={instaLogo} alt="Instagram" />

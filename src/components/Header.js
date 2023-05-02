@@ -13,7 +13,7 @@ const Header = ({title}) => {
         )} */}
       </div>
       <div className="userDetails">
-        <div className="userName">Aaradhya Sharma</div>
+        <div className="userName">Harsh Garg</div>
         <img src="https://lh3.googleusercontent.com/a/AGNmyxac34tRXwRf1tqD3UGehGhCsw9TFKf-XHpPfjuD9w=s288" alt="User Image" className="userImage" />
       </div>
     </header>
